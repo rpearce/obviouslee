@@ -1,7 +1,7 @@
 <?php include("includes/head.php"); ?>
 <body>
 <?php include("includes/header.php"); ?>
-		
+
 <div class="contentShell" id="portfolio">
 	<div class="content">
 		<div class="portfolioMenu">
@@ -43,7 +43,7 @@
 				<li><a href="case-study-1.php" class="ttl">Trattoria Lucca</a></li>
 				<li><a href="case-study-1.php" class="swa">Seamon Whiteside &amp; Associates</a></li>
 				<li><a href="case-study-1.php" class="chm">Charleston Moves</a></li>
-				
+
 				<li><a href="case-study-1.php" class="swa">Seamon Whiteside &amp; Associates</a></li>
 				<li><a href="case-study-1.php" class="duv">Duvall</a></li>
 				<li><a href="case-study-1.php" class="btl">Bottles</a></li>
@@ -52,5 +52,5 @@
 		<div class="clear"></div>
 	</div>
 </div>
-		
+
 <?php include("includes/footer.php"); ?>

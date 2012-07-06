@@ -5,6 +5,5 @@
 <title>Obviouslee Marketing || Charleston, SC Integrated Marketing &amp; Public Relations</title>
 <link href='http://fonts.googleapis.com/css?family=Lato:300italic,900,700italic,300,400,400italic,100italic,900italic,100,700' rel='stylesheet' type='text/css'>
 <style type="text/css">  @import url(http://fonts.googleapis.com/css?family=Lato:300italic,900,700italic,300,400,400italic,100italic,900italic,100,700);</style>
-<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.3/jquery.min.js"></script>
 <link href="styles.css" rel="stylesheet" type="text/css" />
 </head>

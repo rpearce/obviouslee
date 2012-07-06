@@ -3,8 +3,24 @@
 <?php include("includes/header.php"); ?>
 
 <div class="contentShell" id="omWay">
+
+  <!-- Inserted by rwp -->
+  <div style="display:none;">
+    <a class="hardToReach" href="#hardToReach"></a>
+    <a class="moneyHungry" href="#moneyHungry"></a>
+    <a class="removed" href="#removed"></a>
+    <a class="sneaky" href="#sneaky"></a>
+    <a class="weSuck" href="#weSuck"></a>
+  </div>
+  <!-- End Insert -->
+
 	<div class="content">
 		<div class="scroll">
+
+		  <!-- Inserted by rwp -->
+		  <div class="frame" id="blank"></div>
+		  <!-- End Insert -->
+
 			<div class="frame" id="hardToReach">
 				<p>Is what you might say 15 minutes after our entire office burned to the ground. 20 minutes though? We'll definitely pick up or respond to your email. We're all yours.</p>
 			</div>
@@ -25,4 +41,4 @@
 	</div>
 </div>
 
-<?php include("includes/footer.php"); ?>
+<?php include("includes/footer-customjs.php"); ?>

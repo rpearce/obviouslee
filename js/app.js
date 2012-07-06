@@ -49,6 +49,12 @@ $(document).ready(function() {
       onAfter: function(anchor, settings) {
       }
     });
+
+    var last_element_array = last_element[0].split('#');
+    if(last_element_array.length < 2) {
+      $('a.hardToReach').trigger('click');
+    }
+
   }
 
   // Crew
@@ -59,6 +65,10 @@ $(document).ready(function() {
   // Work
   else if(last_element[0].toLowerCase().match(/work/)) {
     $('.menu a[title="Work"]').addClass('active');
+
+    $('.hideShowClientList').click(function(e) {
+      $('.fullClientList').toggle();
+    });
   }
 
   // Capabilities

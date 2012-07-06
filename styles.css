@@ -6,6 +6,7 @@ html, body { height:100%; }
 body { background-color:#fff; background-repeat:no-repeat; font-family:'Lato', Helvetica, Arial; color:#999; }
 img { border-style: none; }
 .clear { clear:both; }
+.align-right { text-align:right };
 
 p { font-size:14px; line-height:20px; color:#333; }
 
@@ -144,6 +145,24 @@ p { font-size:14px; line-height:20px; color:#333; }
 #portfolio .content .portfolioIcons li .chm { background:url('images/portfolio-circle-fpo3.jpg'); }
 #portfolio .content .portfolioIcons li .ccc { background:url('images/portfolio-circle-fpo5.jpg'); }
 
+#portfolio .content a.hideShowClientList { color:#2b8fb0; text-decoration:none; font-size:20px; }
+#portfolio .content .fullClientList { display:none; }
+#portfolio .content .fullClientList .column { width:300px; float:left; color:#2b8fb0; }
+#portfolio .content .fullClientList .column h3 { margin-top: 20px; }
+#portfolio .content .fullClientList .column ul { list-style:none; font-size:16px; }
+#portfolio .content .fullClientList .column li a {
+  font-family: 'Lato', Helvetica, Arial;
+  color:#85bed1 !important;
+  text-decoration:none;
+  -webkit-transition: color 0.3s ease-in-out;
+     -moz-transition: color 0.3s ease-in-out;
+       -o-transition: color 0.3s ease-in-out;
+          transition: color 0.3s ease-in-out;
+}
+#portfolio .content .fullClientList .column li a:visited { color:#2b8fb0; text-decoration:none; }
+#portfolio .content .fullClientList .column li a:hover { color:#333 !important; text-decoration:none; }
+#portfolio .content .fullClientList #column1,
+#portfolio .content .fullClientList #column1  { padding:0px 40px; }
 
 /****** connect (contact) styles ******/
 #connect .tagline { width:960px; height:91px; margin:50px 0px 57px 0px; padding:0px 0px 0px 40px; text-align:left; font-size:60px; font-weight:200; color:#2b8fb0; }
