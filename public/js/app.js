@@ -63,6 +63,7 @@ $(document).ready(function() {
 
   // Capabilities
   else if(last_element[0].toLowerCase().match(/capabilities/)) {
+
     $('.menu a[title="Capabilities"]').addClass('active');
     $.localScroll.defaults.axis = 'xy';
 
@@ -72,6 +73,20 @@ $(document).ready(function() {
       duration: 800,
       hash: true,
     });
+
+    // Select appropriate link on page load
+    var section_id = last_element[0].split('#').splice(-1,1);
+    if(section_id !== undefined) {
+      $('.nav a[href="#' + section_id + '"]').addClass('active');
+    }
+
+    // Highlight inline navigation on click
+    $('.nav a').click(function() {
+      $('.nav a').each(function(element) {
+        $(this).removeClass('active');
+      });
+      $(this).addClass('active');
+    })
   }
 
   // Connect

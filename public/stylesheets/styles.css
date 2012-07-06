@@ -56,10 +56,15 @@ p { font-size:14px; line-height:20px; color:#333; }
 #capabilities .nav li a:link { color:#000; text-decoration:none; }
 #capabilities .nav li a:visited { color:#000; text-decoration:none; }
 #capabilities .nav li.advertising a:hover { color:#2b8fb0; text-decoration:none; }
+#capabilities .nav li.advertising a.active { color:#2b8fb0; text-decoration:none; }
 #capabilities .nav li.brandStrategy a:hover { color:#abc4b9; text-decoration:none; }
+#capabilities .nav li.brandStrategy a.active { color:#abc4b9; text-decoration:none; }
 #capabilities .nav li.creative a:hover { color:#a6a27c; text-decoration:none; }
+#capabilities .nav li.creative a.active { color:#a6a27c; text-decoration:none; }
 #capabilities .nav li.interactive a:hover { color:#cabba2; text-decoration:none; }
+#capabilities .nav li.interactive a.active { color:#cabba2; text-decoration:none; }
 #capabilities .nav li.publicRelations a:hover { color:#e0d178; text-decoration:none; }
+#capabilities .nav li.publicRelations a.active { color:#e0d178; text-decoration:none; }
 #capabilities .nav li { font-size:31px; line-height:45px; }
 
 #capabilities .capability { width:730px; height:400px; margin:0px 0px 20px 0px; }
@@ -67,27 +72,27 @@ p { font-size:14px; line-height:20px; color:#333; }
 #capabilities .capability .statements { width:308px; padding:0px 40px 0px 40px; margin:0px 0px 0px 77px; color:#999; font-size:18px; line-height:24px; float:left; display:inline; }
 #capabilities .capability .statements ul { list-style:none; }
 
-#capabilities #advertising { background:url('images/capabilities-1-advertising.png') no-repeat 25px 0px; }
+#capabilities #advertising { background:url('../images/capabilities-1-advertising.png') no-repeat 25px 0px; }
 #capabilities #advertising .statements { padding-top:270px; }
 #capabilities #advertising .statements .active { color:#2b8faf; }
 #capabilities #advertising .bullets { color:#2b8fb0; padding-top:210px; }
 
-#capabilities #brandStrategy { background:url('images/capabilities-2-brandStrategy.png') no-repeat 25px 0px; }
+#capabilities #brandStrategy { background:url('../images/capabilities-2-brandStrategy.png') no-repeat 25px 0px; }
 #capabilities #brandStrategy .statements { padding-top:250px; }
 #capabilities #brandStrategy .statements .active { color:#abc4b9; }
 #capabilities #brandStrategy .bullets { color:#abc4b9; padding-top:210px; }
 
-#capabilities #creative { background:url('images/capabilities-3-creative.png') no-repeat 25px 0px; }
+#capabilities #creative { background:url('../images/capabilities-3-creative.png') no-repeat 25px 0px; }
 #capabilities #creative .statements { padding-top:275px; }
 #capabilities #creative .statements .active { color:#a6a27c; }
 #capabilities #creative .bullets { color:#a6a27c; padding-top:210px; }
 
-#capabilities #interactive { background:url('images/capabilities-4-interactive.png') no-repeat 25px 0px; }
+#capabilities #interactive { background:url('../images/capabilities-4-interactive.png') no-repeat 25px 0px; }
 #capabilities #interactive .statements { padding-top:250px; }
 #capabilities #interactive .statements .active { color:#cabba2; }
 #capabilities #interactive .bullets { color:#cabba2; padding-top:210px; }
 
-#capabilities #publicRelations { background:url('images/capabilities-5-publicRelations.png') no-repeat 25px 0px; }
+#capabilities #publicRelations { background:url('../images/capabilities-5-publicRelations.png') no-repeat 25px 0px; }
 #capabilities #publicRelations .statements { padding-top:250px; }
 #capabilities #publicRelations .statements .active { color:#e0d178; }
 #capabilities #publicRelations .bullets { color:#e0d178; padding-top:210px; }
