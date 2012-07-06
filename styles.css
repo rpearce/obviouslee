@@ -1,0 +1,219 @@
+/* Shouldn't be nesting more than 2 selectors deep. Doing so to maintain same style as author. -rwp */
+
+/****** persistent styles ******/
+* { margin:0px; padding:0px; }
+html, body { height:100%; }
+body { background-color:#fff; background-repeat:no-repeat; font-family:'Lato', Helvetica, Arial; color:#999; }
+img { border-style: none; }
+.clear { clear:both; }
+
+p { font-size:14px; line-height:20px; color:#333; }
+
+#container { width:1000px; margin:0 auto; padding:30px 0px 0px 0px; }
+.contentShell { margin-top:40px; }
+
+#header { width:1000px; height:115px; margin:0px 0px 0px 0px; }
+#header .logo { width:160px; height:115px; margin:0px 0px 0px -8px; float:left; display:inline; }
+#header .menu { width:140px; height:115px; float:left; display:inline }
+#header .menu ul { margin:0px 0px 0px 26px; padding:0px; list-style:none; text-transform:uppercase; letter-spacing:1px; font-weight:bold; font-size:12px; }
+#header .menu ul li { margin:0px 0px 3px 0px; }
+#header .menu ul li a, #footer a {
+  -webkit-transition: color 0.3s ease-in-out;
+     -moz-transition: color 0.3s ease-in-out;
+       -o-transition: color 0.3s ease-in-out;
+          transition: color 0.3s ease-in-out; }
+#header .menu ul a:link { color:#999; text-decoration:none;  }
+#header .menu ul a:visited { color:#999; text-decoration:none; }
+#header .menu ul a:hover { color:#000; text-decoration:none; }
+#header .menu ul a.active { color:#000; text-decoration:none; }
+
+#footer { width:1000px; height:52px; margin:0 auto; font-size:9px; text-transform:uppercase; letter-spacing:1px; font-weight:900; padding-top:30px; }
+#footer a:link { color:#2b8fb0; text-decoration:none; }
+#footer a:visited { color:#2b8fb0; text-decoration:none; }
+#footer a:hover { color:#000; text-decoration:none; }
+#footer .logo { width:220px; height:52px; background:url('http://obviouslee.com/img/footer-logo.png'); float:left; display:inline; }
+#footer .address { width:560px; padding-top:12px; float:left; display:inline; text-align:center; line-height:12px }
+#footer .social { width:220px; height:52px; float:left; display:inline; text-align:right; }
+#footer .flickr { width:27px; height:52px; display:inline; margin-right:7px; }
+#footer .twitter { width:27px; height:52px; display:inline; margin-right:7px; }
+#footer .facebook { width:27px; height:52px; display:inline; margin-right:7px; }
+#footer .vimeo { width:27px; height:52px; display:inline; }
+
+
+/****** home styles ******/
+#home .tagline { width:1000px; height:91px; margin:50px 0px 57px 0px; text-align:center; font-size:60px; font-weight:200; color:#333; }
+#home .features { width:1000px; height:234px; margin:0px 0px 226px 0px; background:#333; }
+#home .features .feature { width:408px; height:234px; float:left; display:inline; background:#000; text-align:center; color:#fff; }
+#home .features .feature h1 { font-weight:400; font-size:28px; line-height:214px; margin:0px; }
+#home .features #feature1 { width:333px; height:234px; background:#ccc; }
+#home .features #feature2 { width:334px; height:234px; background:#333; }
+#home .features #feature3 { width:333px; height:234px; background:#ccc; }
+
+
+/****** capabilities styles ******/
+#capabilities { width:1000px; background:url('images/capabilities-fpos.png') no-repeat -37px 0px; }
+#capabilities .nav { float:left; display:inline; width:270px; margin:100px 0px 0px 0px; list-style:none; text-align:right; }
+#capabilities .nav li a:link { color:#000; text-decoration:none; }
+#capabilities .nav li a:visited { color:#000; text-decoration:none; }
+#capabilities .nav li.advertising a:hover { color:#2b8fb0; text-decoration:none; }
+#capabilities .nav li.advertising a.active { color:#2b8fb0; text-decoration:none; }
+#capabilities .nav li.brandStrategy a:hover { color:#abc4b9; text-decoration:none; }
+#capabilities .nav li.brandStrategy a.active { color:#abc4b9; text-decoration:none; }
+#capabilities .nav li.creative a:hover { color:#a6a27c; text-decoration:none; }
+#capabilities .nav li.creative a.active { color:#a6a27c; text-decoration:none; }
+#capabilities .nav li.interactive a:hover { color:#cabba2; text-decoration:none; }
+#capabilities .nav li.interactive a.active { color:#cabba2; text-decoration:none; }
+#capabilities .nav li.publicRelations a:hover { color:#e0d178; text-decoration:none; }
+#capabilities .nav li.publicRelations a.active { color:#e0d178; text-decoration:none; }
+#capabilities .nav li { font-size:31px; line-height:45px; }
+
+#capabilities .capability { width:730px; height:400px; margin:0px 0px 20px 0px; }
+#capabilities .capability .bullets { width:190px; color:#2b8fb0; font-size:15px; line-height:20px; font-weight:400px; float:left; display:inline; margin:0px 0px 0px 75px; }
+#capabilities .capability .statements { width:308px; padding:0px 40px 0px 40px; margin:0px 0px 0px 77px; color:#999; font-size:18px; line-height:24px; float:left; display:inline; }
+#capabilities .capability .statements ul { list-style:none; }
+
+#capabilities #advertising { background:url('images/capabilities-1-advertising.png') no-repeat 25px 0px; }
+#capabilities #advertising .statements { padding-top:270px; }
+#capabilities #advertising .statements .active { color:#2b8faf; }
+#capabilities #advertising .bullets { color:#2b8fb0; padding-top:210px; }
+
+#capabilities #brandStrategy { background:url('images/capabilities-2-brandStrategy.png') no-repeat 25px 0px; }
+#capabilities #brandStrategy .statements { padding-top:250px; }
+#capabilities #brandStrategy .statements .active { color:#abc4b9; }
+#capabilities #brandStrategy .bullets { color:#abc4b9; padding-top:210px; }
+
+#capabilities #creative { background:url('images/capabilities-3-creative.png') no-repeat 25px 0px; }
+#capabilities #creative .statements { padding-top:275px; }
+#capabilities #creative .statements .active { color:#a6a27c; }
+#capabilities #creative .bullets { color:#a6a27c; padding-top:210px; }
+
+#capabilities #interactive { background:url('images/capabilities-4-interactive.png') no-repeat 25px 0px; }
+#capabilities #interactive .statements { padding-top:250px; }
+#capabilities #interactive .statements .active { color:#cabba2; }
+#capabilities #interactive .bullets { color:#cabba2; padding-top:210px; }
+
+#capabilities #publicRelations { background:url('images/capabilities-5-publicRelations.png') no-repeat 25px 0px; }
+#capabilities #publicRelations .statements { padding-top:250px; }
+#capabilities #publicRelations .statements .active { color:#e0d178; }
+#capabilities #publicRelations .bullets { color:#e0d178; padding-top:210px; }
+
+#capabilities .infoShell { float:left; display:inline; height:500px; overflow:hidden; width:730px; margin-top:-85px; }
+
+
+/****** om way styles ******/
+#omWay {  }
+#omWay .content { width:1000px; height:530px; overflow:hidden; position:relative; float:left; }
+#omWay .content .scroll { width:5000px; position:relative; }
+#omWay .content .scroll .frame { width:636px; min-height:210px; padding:320px 0px 0px 0px; margin:0px 20px 0px 20px; float:left; position:relative; }
+#omWay .content .scroll .frame p { font-size:20px; line-height:28px; margin:0px 20px 0px 20px; }
+#omWay .content .scroll .frame#hardToReach { background:url('images/omWay-hardToReach.png') no-repeat top center; }
+#omWay .content .scroll .frame#moneyHungry { background:url('images/omWay-moneyHungry.png') no-repeat top center; }
+#omWay .content .scroll .frame#removed { background:url('images/omWay-removed.png') no-repeat top center; }
+#omWay .content .scroll .frame#sneaky { background:url('images/omWay-sneaky.png') no-repeat top center; }
+#omWay .content .scroll .frame#weSuck { background:url('images/omWay-weSuck.png') no-repeat top center; }
+
+/****** portfolio styles ******/
+#portfolio .content { width:1000px; margin:50px 0px 50px 0px; }
+#portfolio .content .portfolioMenu { width:360px; float:left; display:inline; padding:0px 40px 0px 0px; }
+#portfolio .content .portfolioMenu ul { text-align:right; list-style:none; font-size:18px; line-height:24px; font-weight:300; margin:-5px 0px 0px 0px; }
+#portfolio .content .portfolioMenu a:link { color:#333; text-decoration:none; }
+#portfolio .content .portfolioMenu a:visited { color:#333; text-decoration:none; }
+#portfolio .content .portfolioMenu a:hover { color:#2b8fb0; text-decoration:none; }
+
+#portfolio .content .portfolioIcons { width:600px; float:left; display:inline; }
+#portfolio .content .portfolioIcons ul { list-style:none; margin:0px; }
+#portfolio .content .portfolioIcons ul li { float:left; display:inline; margin:0px 30px 10px 0px; }
+#portfolio .content .portfolioIcons ul li a { display:block; height:110px; width:90px; background:#999; text-indent:-1000%; overflow:hidden; }
+#portfolio .content .portfolioIcons ul li a:hover { background-position:right; }
+
+#portfolio .content .portfolioIcons li .pga { background:url('images/portfolio-circle-fpo1.jpg'); }
+#portfolio .content .portfolioIcons li .fcc { background:url('images/portfolio-circle-fpo2.jpg'); }
+#portfolio .content .portfolioIcons li .ffv { background:url('images/portfolio-circle-fpo3.jpg'); }
+#portfolio .content .portfolioIcons li .tsi { background:url('images/portfolio-circle-fpo4.jpg'); }
+#portfolio .content .portfolioIcons li .btl { background:url('images/portfolio-circle-fpo5.jpg'); }
+#portfolio .content .portfolioIcons li .chm { background:url('images/portfolio-circle-fpo3.jpg'); }
+#portfolio .content .portfolioIcons li .wph { background:url('images/portfolio-circle-fpo4.jpg'); }
+#portfolio .content .portfolioIcons li .pda { background:url('images/portfolio-circle-fpo2.jpg'); }
+#portfolio .content .portfolioIcons li .duv { background:url('images/portfolio-circle-fpo1.jpg'); }
+#portfolio .content .portfolioIcons li .stz { background:url('images/portfolio-circle-fpo4.jpg'); }
+#portfolio .content .portfolioIcons li .wrs { background:url('images/portfolio-circle-fpo5.jpg'); }
+#portfolio .content .portfolioIcons li .pgp { background:url('images/portfolio-circle-fpo4.jpg'); }
+#portfolio .content .portfolioIcons li .srw { background:url('images/portfolio-circle-fpo3.jpg'); }
+#portfolio .content .portfolioIcons li .ttl { background:url('images/portfolio-circle-fpo2.jpg'); }
+#portfolio .content .portfolioIcons li .swa { background:url('images/portfolio-circle-fpo1.jpg'); }
+#portfolio .content .portfolioIcons li .chm { background:url('images/portfolio-circle-fpo3.jpg'); }
+#portfolio .content .portfolioIcons li .ccc { background:url('images/portfolio-circle-fpo5.jpg'); }
+
+
+/****** connect (contact) styles ******/
+#connect .tagline { width:960px; height:91px; margin:50px 0px 57px 0px; padding:0px 0px 0px 40px; text-align:left; font-size:60px; font-weight:200; color:#2b8fb0; }
+
+
+/****** crew styles ******/
+#crew .tagline { width:1000px; margin:50px 0px 30px 0px; text-align:center; font-size:60px; font-weight:200; color:#333; }
+#crew .intro p { text-align:center; color:#333; margin:0px 0px 15px 0px; }
+#crew .nav { text-align:center; margin:0px 0px 0px 150px; }
+#crew .nav li { float:left; display:inline; margin:30px 10px 40px 10px; width:80px; height:120px; }
+#crew .nav p { font-size:16px; font-weight:bold; text-align:center; line-height:20px; margin:5px 0px 0px 0px; }
+#crew .nav a:link { text-decoration:none; color:#333: }
+#crew .nav a:visited { text-decoration:none; color:#333: }
+#crew .nav a:hover { text-decoration:none; color:#2b8fb0: }
+
+/****** case study styles ******/
+#caseStudy .csMenu { position:absolute; width:700px; height:90px; margin:-158px 0px 0px 300px; }
+#caseStudy .csMenu .arrow { float:left; display:inline; margin:23px 0px 0px 0px; }
+#caseStudy .csMenu .scroll { float:left; display:inline; margin:0px 0px 0px 0px; }
+#caseStudy .csMenu ul { list-style:none; margin:0px 10px 0px 10px; }
+#caseStudy .csMenu ul li { float:left; display:inline; margin:0px 10px 0px 10px; }
+#caseStudy .csMenu ul li:last-child { margin:0px; }
+#caseStudy .csMenu ul li a { display:block; height:110px; width:90px; text-indent:-1000%; overflow:hidden; }
+#caseStudy .csMenu ul li a:hover { background-position:right; }
+#caseStudy .csMenu li .pga { background:url('images/portfolio-circle-fpo1.jpg'); }
+#caseStudy .csMenu li .fcc { background:url('images/portfolio-circle-fpo2.jpg'); }
+#caseStudy .csMenu li .ffv { background:url('images/portfolio-circle-fpo3.jpg'); }
+#caseStudy .csMenu li .tsi { background:url('images/portfolio-circle-fpo4.jpg'); }
+#caseStudy .csMenu li .btl { background:url('images/portfolio-circle-fpo5.jpg'); }
+#caseStudy .csMenu li .chm { background:url('images/portfolio-circle-fpo3.jpg'); }
+
+#caseStudy .content { width:1000px; margin:50px 0px 50px 0px; }
+#caseStudy .content .left { width:450px; float:left; display:inline; padding-left:30px; }
+#caseStudy .content .left .large { width:414px; height:600px; background:#ccc; }
+
+#caseStudy .content .right { width:520px; float:left; display:inline; }
+#caseStudy .content .right hr { margin:20px 0px 20px 0px; border:0px; height:1px; color:#ccc; background:#ccc; }
+#caseStudy .content .right .intro h1 { font-size:42px; line-height:50px; font-weight:300; color:#000; margin:0px 0px 10px 0px; }
+#caseStudy .content .right .intro p { font-size:20px; line-height:26px; font-weight:300; color:#000; }
+#caseStudy .content .right .testimonial {  }
+#caseStudy .content .right .testimonial p { font-size:14px; line-height:20px; color:#2b8fb0; font-weight:300; }
+#caseStudy .content .right .testimonial h1 { font-size:12px; line-height:16px; color:#2b8fb0; text-transform:uppercase; margin:20px 0px 0px 0px; font-weight:bold; }
+#caseStudy .content .right .testimonial h2 { font-size:12px; line-height:16px; color:#000; font-weight:300; }
+#caseStudy .content .right .testimonial h3 { font-size:14px; line-height:16px; color:#000; margin:20px 0px 0px 0px; }
+#caseStudy .content .right .testimonial h3 a:link { color:#2b8fb0; text-decoration:none; }
+#caseStudy .content .right .testimonial h3 a:visited { color:#2b8fb0; text-decoration:none; }
+#caseStudy .content .right .testimonial h3 a:hover { color:#000; text-decoration:underline; }
+
+#caseStudy .content .right .info { width:250px; float:left; display:inline; }
+#caseStudy .content .right .info p { font-size:14px; line-height:20px; color:#000; font-weight:normal; }
+#caseStudy .content .right .info h1 { font-size:18px; line-height:20px; color:#000; text-transform:uppercase; margin:0px 0px 2px 0px; font-weight:bold; }
+#caseStudy .content .right .info hr { color:#ccc; background:#ccc; border:0; margin:20px 0px 20px 0px; height:1px; }
+
+#caseStudy .content .right .goal { width:250px; float:left; display:inline; margin:0px 0px 0px 20px; }
+#caseStudy .content .right .goal p { font-size:14px; line-height:20px; color:#000; font-weight:normal; }
+#caseStudy .content .right .goal h1 { font-size:18px; line-height:20px; color:#000; text-transform:uppercase; margin:0px 0px 2px 0px; font-weight:bold; }
+#caseStudy .content .right .goal hr { color:#ccc; background:#ccc; border:0; margin:20px 0px 20px 0px; height:1px; }
+
+
+/****** profile styles ******/
+#crewProfile .contentLeft { width:700px; float:left; display:inline; }
+#crewProfile .contentRight { width:300px; height:700px; background:#ccc; float:left; display:inline; }
+#crewProfile .contentLeft br { margin:20px 0px 20px 0px; }
+#crewProfile .contentLeft p { color:#333; font-weight:normal; margin:0px 0px 15px 0px; }
+#crewProfile .contentLeft h1 { color:#2b8fb0; font-size:18px; font-weight:800; text-transform:uppercase; letter-spacing:2px; margin:0px 0px 2px 0px; }
+#crewProfile .contentLeft h2 { color:#000; font-size:14px; font-weight:800; margin:0px 0px 0px 0px; }
+#crewProfile .contentLeft h3 { color:#2b8fb0; font-size:13px; font-weight:800; text-transform:uppercase; letter-spacing:1px; margin:15px 0px 15px 0px; }
+#crewProfile .contentLeft h3 span { color:#000; }
+#crewProfile .contentLeft h3 a:link { color:#2b8fb0; text-decoration:none; }
+#crewProfile .contentLeft h3 a:visited { color:#2b8fb0; text-decoration:none; }
+#crewProfile .contentLeft h3 a:hover { color:#000; text-decoration:none; }
+
+
