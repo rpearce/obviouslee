@@ -112,7 +112,7 @@ p { font-size:14px; line-height:20px; color:#333; }
 #omWay .content .scroll .frame#removed { background:url('images/omWay-removed.png') no-repeat top center; }
 #omWay .content .scroll .frame#sneaky { background:url('images/omWay-sneaky.png') no-repeat top center; }
 #omWay .content .scroll .frame#weSuck { background:url('images/omWay-weSuck.png') no-repeat top center; }
-
+#omway .content .invisibleLinks { display:none; }
 /****** portfolio styles ******/
 #portfolio .content { width:1000px; margin:50px 0px 50px 0px; }
 #portfolio .content .portfolioMenu { width:360px; float:left; display:inline; padding:0px 40px 0px 0px; }
