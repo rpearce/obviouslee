@@ -75,9 +75,13 @@ $(document).ready(function() {
     });
 
     // Select appropriate link on page load
-    var section_id = last_element[0].split('#').splice(-1,1);
-    if(section_id !== undefined) {
+    var last_element_array = last_element[0].split('#');
+    if(last_element_array.length > 1) {
+      var section_id = last_element_array.splice(-1,1);
       $('.nav a[href="#' + section_id + '"]').addClass('active');
+    }
+    else {
+      $('.nav a[href="#advertising"]').addClass('active');
     }
 
     // Highlight inline navigation on click
