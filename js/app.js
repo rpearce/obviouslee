@@ -66,14 +66,11 @@ $(document).ready(function() {
     $('.menu a[title="Capabilities"]').addClass('active');
     $.localScroll.defaults.axis = 'xy';
 
-    $('.nav a').click(function(e) {
-      e.preventDefault();
-      $.localScroll({
-        target: '.infoShell',
-        queue: true,
-        duration: 800,
-        hash: true,
-      });
+    $.localScroll({
+      target: '.infoShell',
+      queue: true,
+      duration: 800,
+      hash: true,
     });
   }
 
