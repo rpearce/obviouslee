@@ -1,3 +1,12 @@
+.item {
+  position: relative;
+/*  display: none;*/
+}
+
+.active {
+  display: inline;
+}
+
 /* Shouldn't be nesting more than 2 selectors deep. Doing so to maintain same style as author. -rwp */
 
 /****** persistent styles ******/
@@ -103,7 +112,7 @@ p { font-size:14px; line-height:20px; color:#333; }
 
 /****** om way styles ******/
 #omWay {  }
-#omWay .content { width:1000px; height:530px; overflow:hidden; position:relative; float:left; }
+#omWay .content { width:1000px; height:530px; overflow:hidden; position:relative; float:left; cursor: url('images/drag.png'),move; }
 #omWay .content .scroll { width:5000px; position:relative; }
 #omWay .content .scroll .frame { width:636px; min-height:210px; padding:320px 0px 0px 0px; margin:0px 20px 0px 20px; float:left; position:relative; }
 #omWay .content .scroll .frame p { font-size:20px; line-height:28px; margin:0px 20px 0px 20px; }

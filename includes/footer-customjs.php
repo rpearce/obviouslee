@@ -9,11 +9,10 @@
 			</div>
 		</div>
 	</div><!--container-->
-	<!-- Inserted by rwp -->
-  <script src="js/jquery-1.7.2.min.js" type="text/javascript"></script>
+  <script src="js/jquery-1.7.2.min.js"></script>
+  <script src="js/jquery-ui-1.8.21.custom.min.js"></script>
   <script src="js/jquery-scrollTo-custom.min.js"></script>
   <script src="js/jquery-localscroll.min.js"></script>
   <script src="js/app.js"></script>
-  <!-- End Insert -->
 </body>
 </html>
